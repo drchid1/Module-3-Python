@@ -6,7 +6,7 @@ Author : **Murali Chidambaram Veerabahu**
 
 This assigment has two exercise called "PyBank" and "PyPoll". The task is to use python program to pull out the descriptive statistics from the respective CSV files and summarise the data in an simple output to the terminal and a text file. In class we learned the use of the OS module and CSV module in python. In my reaserch for this assigment I came accross slicker solutions using the Pandas module. I have used the Pandas module functions togther with fundamental coding concepts such as Loops and Conditionals.
 
-Each project folder contains the python program named as **main.py**. The **Resources** folder contains the source data CSV file and the **Analysis** folder holds the final output file.
+Each project folder contains the python program named as **main.py**. The **Resources** folder contains the source data CSV file and the **Analysis** folder holds the final output file. Please ignore the *.DS_Store* file in the GitHub repository. I have had some technical touble to remove *.DS_Store* using Git and *.gitignore* tools. I am yet to fully understand how this works and will learn how to remove/ignore such files for future assigments.
 
 ## PyBank
 
