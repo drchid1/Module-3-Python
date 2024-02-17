@@ -73,4 +73,4 @@ The output to the file was the same as the results on the terminal display.
 
 As mentioned before the code was checked at each stage on a Jupyter notebook and debugged. It was also checked and debugged as a python file. The code has been indented, spaced and commented for an easier read.
 
-~END~
+**END**
