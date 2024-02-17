@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Creating the dataframe form the csv file in resources folder
-df = pd.read_csv("PyBank/Resources/budget_data.csv")
+df = pd.read_csv("Resources/budget_data.csv")
 
 # Calculation of the total number of months - each row is a new month
 tot_months = len(df.index)
@@ -48,7 +48,7 @@ print(f"Greatest Increase in Profits: {greatest_increase}")
 print(f"Greatest Decrease in Profits: {greatest_decrease}")
 
 # Opening of file to write to in Analysis folder
-with open("PyBank/Analysis/budget_analysis.txt", "w") as file:
+with open("Analysis/budget_analysis.txt", "w") as file:
     file.write("Financial Analysis\n")
     file.write("------------------------------\n")
     file.write(f"Total Months: {tot_months}\n")

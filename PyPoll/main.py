@@ -14,7 +14,6 @@ tot_votes = len(df.index)
 candidate_list = [(value, count) for value, count in df['Candidate'].value_counts().items()]
 
 # Declaration of variable and a dictionary to store candidate vote summary
-
 max_votes = 0
 output_list = {}
 
